@@ -13,27 +13,32 @@ Begin your user stories document with a brief overview of the messaging applicat
 
 ### 1. Viewing the User List 
 - As a USER, I want to view the complete list of users so that I can chat with someone.
-- As a USER, I want to view the complete list of users so that I can block someone.  
-- As a USER, I want to view the complete list of users so that I can follow someone.
 - As a USER, I want to view the complete list of users so that I can add someone to a group.
-- As an ADMIN, I want to view the complete list of users so that I can Delete someone's account.
-- As an ADMIN, I want to view the complete list of users so that I can moderate someone's account.
 
 **Acceptance Criteria:**  
-- The list should display all users currently registered on the platform.  
-- Each user should appear with their name and an option to chat / block / follow.
+- The list should display all users currently registered on the platform.
+- Each user should appear with their name and an option to chat.
 
 ### 2. Viewing the Chat List:
 - As a USER, I want to have access to a list of all my active conversations, so that I can continue a previous conversation.
 - As a USER, I want to have access to a list of all my active conversations, so that I can see what I texted.
 - As a USER, I want to view the complete message history with another user, so that I can follow the conversation without losing context.
-- As a USER, I want to see the chat list, so that I can block someone when they bother me.
-- As a USER, I want to see the chat list, so that I can follow someone when I like them.
 
 **Acceptance Criteria:**  
-- The message view should show all sent and received messages with the selected user, and also show a follow and block button.  
+- The message view should show all sent and received messages with the selected user.
 - Messages should appear in chronological order.
 - Sent and received messages should be visually distinguishable, sent should be lighter color while recieved should be a darker color.
 
 
+### 3. Extra things for later:
+- As a USER, I want to view the complete list of users so that I can block someone.  
+- As a USER, I want to view the complete list of users so that I can follow someone.
+- As a USER, I want to see the chat list, so that I can block someone when they bother me.
+- As a USER, I want to see the chat list, so that I can follow someone when I like them.
+- As an ADMIN, I want to view the complete list of users so that I can Delete someone's account.
+- As an ADMIN, I want to view the complete list of users so that I can moderate someone's account.
 
+
+**Acceptance Criteria:**  
+- Each user should appear with their name and an option to follow.
+- The message view should show a follow and block button.  
